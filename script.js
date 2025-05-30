@@ -22,10 +22,3 @@ fetch("https://apiclient.besoccerapps.com/scripts/api/api.php?key=67f48327f77bd3
     });
   })
   .catch((error) => console.error("Error al obtener datos:", error));
-
-fetch("http://localhost:3000/besoccer")
-  .then((response) => response.json())
-  .then((data) => {
-    console.log("Datos completos:", data); // Ver JSON en la consola
-  })
-  .catch((error) => console.error("Error al obtener datos:", error));
