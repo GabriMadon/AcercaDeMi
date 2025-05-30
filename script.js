@@ -1,4 +1,4 @@
-fetch("https://apiclient.besoccerapps.com/scripts/api/api.php?key=67f48327f77bd33bfe952cefadb003c9&tz=Europe/Madrid&req=categories&format=json")
+fetch("https://cors-anywhere.herokuapp.com/https://apiclient.besoccerapps.com/scripts/api/api.php?key=67f48327f77bd33bfe952cefadb003c9&tz=Europe/Madrid&req=categories&format=json")
 
   .then((response) => response.json())
   .then((data) => {
